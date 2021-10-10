@@ -1,0 +1,4 @@
+this is a cool feature
+
+additional message explaining
+why this is such a cool feature

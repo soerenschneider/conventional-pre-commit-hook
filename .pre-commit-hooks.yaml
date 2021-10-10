@@ -1,0 +1,9 @@
+---
+- id: conventional-commit
+  name: Conventional Commit
+  entry: hooks/conventional-commit.sh
+  language: script
+  description: Check whether commit messages comply with the conventional commit format
+  always_run: true
+  stages:
+    - commit-msg

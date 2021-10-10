@@ -1,0 +1,10 @@
+---
+repos:
+  - repo: local
+    hooks:
+      - id: conventional-commit
+        name: Conventional Commit
+        entry: hooks/conventional-commit.sh
+        language: script
+        stages:
+          - commit-msg
